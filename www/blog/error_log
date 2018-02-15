@@ -1,0 +1,5 @@
+[19-Jan-2018 11:48:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sacpoolp/public_html/blog/b.php on line 9
+[25-Jan-2018 21:40:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sacpoolp/public_html/blog/b.php on line 9
+[30-Jan-2018 07:00:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sacpoolp/public_html/blog/b.php on line 9
+[30-Jan-2018 07:00:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sacpoolp/public_html/blog/b.php on line 9
+[30-Jan-2018 07:00:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sacpoolp/public_html/blog/b.php on line 9
