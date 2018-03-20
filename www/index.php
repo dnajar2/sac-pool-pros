@@ -41,10 +41,10 @@ $page_id = 0;
 <?php print $key_words ?>
 
 <!-- Bootstrap -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/custom-style.css" rel="stylesheet">
-<link href="css/animate.css" rel="stylesheet">
-<link href="css/assets/owl.carousel.css" rel="stylesheet">
+<link href="https://sacpool-sacpoolpros.netdna-ssl.com/css/bootstrap.css" rel="stylesheet">
+<link href="https://sacpool-sacpoolpros.netdna-ssl.com/css/custom-style.css" rel="stylesheet">
+<link href="https://sacpool-sacpoolpros.netdna-ssl.com/css/animate.css" rel="stylesheet">
+<link href="https://sacpool-sacpoolpros.netdna-ssl.com/css/assets/owl.carousel.css" rel="stylesheet">
 
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -70,7 +70,7 @@ $page_id = 0;
 <h1>We are <a href="https://sacpoolpros.com/swimming-pool-construction" title="Swimming Pool Builder Sacramento">swimming pool construction</a> experts, we build quality swimming pools and pride in the overal pool builder process we execute when cunstructing your swimming pool, ensuring the pool build process is the best of the industry</h1>
 Sac Pools pros, swimming pool &amp; Spa construction &amp; service, we offer swimming <a href="swimming-pool-weekly-service" title="pool service sacramento ca"></a>pool service in the Sacramento</a> area as well as swimming pool construction service, our clients are based out of Sacramento and El Dorado counties, we are swimming pool builder experts for the best swimming pool contractor contact us today .
 </div>
-<?php 
+<?php
 	include('includes/nav.php');
 	?>
 <div class="container-fluid">
@@ -80,27 +80,32 @@ Sac Pools pros, swimming pool &amp; Spa construction &amp; service, we offer swi
       <div class="text-center">
       		<button id="get_started"  type="button" class="btn btn-primary animated fadeIn ">GET STARTED</button>
       </div>
-      
+
     </div>
   </div>
 </div>
 <div class="container section">
   <div class="row text-center">
     <div class="col-md-12">
-		<h2 class="animated slideInRight">We Are  <a href="https://sacpoolpros.com/swimming-pool-construction" title="Swimming Pool Builder Sacramento">Swimming Pool Builders</a> and Swimming Pool Service Experts<br>OVER 20,000 SWIMMING POOLS BUILT THROUGHOUT CALIFORNIA</h2> 
+		<h2 class="animated slideInRight">We Are  <a href="https://sacpoolpros.com/swimming-pool-construction" title="Swimming Pool Builder Sacramento">Swimming Pool Builders</a> and Swimming Pool Service Experts<br>OVER 20,000 SWIMMING POOLS BUILT THROUGHOUT CALIFORNIA</h2>
+		 <div class="col-xs-12">
+		     <h2>For all you swimming pool needs be it service, repair or construction we are here for you!</h2>
+		     <p class="lead">If you are located in <span id="city">Sacramento</span> and are in need of a great swimming pool service crew, you have come to the right place, we have more than 30 years of combined experience in the pool service field, feel free to call us today for a free estimate (916) 722-7665</p>
+		 </div>
+		 <hr>
 		 <div class="services wow slideInLeft">
-			<a href="pool-gallery" title="Swimming Pool Build Service"><img src="images/assets/Swimming-Pools-Sacramento.png" atl="Swimming pools sacramento"></a>
-			<a href="custom-swimming-pools" title="Custom Pool Builds"><img src="images/assets/spas-hot-tubs-sacramento.png" alt="spas, hot tubs sacramento"></a>
-			<a href="swimming-pool-products" title="Pool Products"><img src="images/assets/patio-furniture-sacramento.png" alt="Patios Sacramento"></a>
-			<a href="swimming-pool-weekly-service" title="Pool Service"><img src="images/assets/pool-service-sacramento.png" alt="pool services sacramento"></a>
+			<a href="pool-gallery" title="Swimming Pool Build Service"><img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/Swimming-Pools-Sacramento.png" atl="Swimming pools sacramento"></a>
+			<a href="custom-swimming-pools" title="Custom Pool Builds"><img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/spas-hot-tubs-sacramento.png" alt="spas, hot tubs sacramento"></a>
+			<a href="swimming-pool-products" title="Pool Products"><img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/patio-furniture-sacramento.png" alt="Patios Sacramento"></a>
+			<a href="swimming-pool-weekly-service" title="Pool Service"><img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/pool-service-sacramento.png" alt="pool services sacramento"></a>
 			<div class="clearfix"></div>
 		 </div>
 		 <div class="trades wow fadeIn">
-		 	<img src="images/assets/swimming-pool-construction-crew.jpg" alt="Sacramento pool builder crew">
-		 	<img src="images/assets/download.jpg" alt="Sacramentos best swimming pool service">
-		 	<img src="images/assets/trade-certified-pool-dealer.jpg" alt="Sacramento pool dealer">
-		 	<img src="images/assets/Inc-5000-2015-sac-pools-pros-sacramento.png" alt="sac pool pors, swimming pool construction experts"
-		</div>	
+		 	<img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/swimming-pool-construction-crew.jpg" alt="Sacramento pool builder crew">
+		 	<img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/download.jpg" alt="Sacramentos best swimming pool service">
+		 	<img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/trade-certified-pool-dealer.jpg" alt="Sacramento pool dealer">
+		 	<img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/Inc-5000-2015-sac-pools-pros-sacramento.png" alt="sac pool pors, swimming pool construction experts"
+		</div>
 	 </div>
 	</div>
   </div>
@@ -109,43 +114,43 @@ Sac Pools pros, swimming pool &amp; Spa construction &amp; service, we offer swi
     <div class="text-center col-md-12">
       <div class="well text-center">
 		  <h3>We Think We Are The Best</h3>
-			<strong>We think we are the best because you the client said so, Great people work here to develop the best solutions for you. Each member of our team has its own function, and without doubt, makes the best possible way!</strong>	
+			<strong>We think we are the best because you the client said so, Great people work here to develop the best solutions for you. Each member of our team has its own function, and without doubt, makes the best possible way!</strong>
    	  </div>
     </div>
   </div>
 
-  
+
 </div>
 <hr>
 
-<!-- 
- <div class="row"> 
+<!--
+ <div class="row">
    <div class="owl-carousel">
-  	
-  		<?php do { ?>		  	
+
+  		<?php do { ?>
  		  	<div class="owl-item-holder"><!-- start of item
  		  		<h3><a href="/blog/b.php?title=<?php echo $post_title = str_replace(" ", "-",$row['title'] ); ?>" title="<?php echo $row['title']; ?>"><?php echo $row['title'] ?></a></h3>
 				<div class="col-sm-6">
 					<img src="https://sacpoolpros.com/images/gallery/<?php echo $row['img'] ?>" alt="Why build a swimming pool in your Sacramento back yard">
 				</div>
-				<div class="col-sm-6">					
-					<?php 
-					echo  substr($row['content'], 0, 256);			
+				<div class="col-sm-6">
+					<?php
+					echo  substr($row['content'], 0, 256);
 					?>...
 					<div class="trades text-right">
 						<em><?php echo $row['author'] ?></em>
-						<small><em> posted <?php echo $date = $row['posted']  ?></em></small>		
-					</div>				
+						<small><em> posted <?php echo $date = $row['posted']  ?></em></small>
+					</div>
 				</div>
 				<div class="clearfix"></div>
-			</div><!-- end of item -->		 
+			</div><!-- end of item -->
 	  <?php } while($row = mysqli_fetch_assoc($results)); ?>
-  <!-- 	
+  <!--
   </div>
   <div class="clearfix"></div>
   </div>
   -->
-<?php 
+<?php
 	include('includes/footer.php');
 	?>
 <script>
@@ -172,6 +177,15 @@ $(document).ready(function(){
 	});
 	$('.owl-prev').addClass('pull-left');
 	$('.owl-next').addClass('pull-right');
+// 	get location from guest
+$.ajax({
+		url:'https://freegeoip.net/json',
+		method:'GET',
+		dataType: 'jsonp',
+		success:function(res){			
+ 			$('#city').text(res.city)
+		}
+	})
 })
 </script>
 </body>
