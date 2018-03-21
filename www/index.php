@@ -89,7 +89,7 @@ Sac Pools pros, swimming pool &amp; Spa construction &amp; service, we offer swi
     <div class="col-md-12">
 		<h2 class="animated slideInRight">We Are  <a href="https://sacpoolpros.com/swimming-pool-construction" title="Swimming Pool Builder Sacramento">Swimming Pool Builders</a> and Swimming Pool Service Experts<br>OVER 20,000 SWIMMING POOLS BUILT THROUGHOUT CALIFORNIA</h2>
 		 <div class="col-xs-12">
-		     <h2>For all you swimming pool needs be it service, repair or construction we are here for you!</h2>
+		     <h2>For all your swimming pool needs be it <a href="/swimming-pool-weekly-service" title="Pool Service">service</a>, <a href="/swimming-pool-repair" title="swimming pool repair">repair</a> or <a href="/swimming-pool-construction" title="swimming pool construction">construction</a> we are here for you!</h2>
 		     <p class="lead">If you are located in <span id="city">Sacramento</span> and are in need of a great swimming pool service crew, you have come to the right place, we have more than 30 years of combined experience in the pool service field, feel free to call us today for a free estimate (916) 722-7665</p>
 		 </div>
 		 <hr>
@@ -182,7 +182,7 @@ $.ajax({
 		url:'https://freegeoip.net/json',
 		method:'GET',
 		dataType: 'jsonp',
-		success:function(res){			
+		success:function(res){
  			$('#city').text(res.city)
 		}
 	})

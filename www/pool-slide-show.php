@@ -7,7 +7,7 @@ $page_id = 3;
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sac Pool Pros - About Us</title>
+<title>Sac Pool Pros - Our Pools Our Reputation</title>
 <meta property="og:site_name" content="Sac Pool Pros Construction &amp; Service">
 <meta property="og:title" content="Sac Pool Pros Construction &amp; Service">
 <meta property="og:url" content="http://www.sacpoolpros.com/about/">
@@ -25,7 +25,7 @@ $page_id = 3;
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/custom-style.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
-<link type="text/css" rel="stylesheet" href="css/lightslider.css" />   
+<link type="text/css" rel="stylesheet" href="css/lightslider.css" />
 <style type="text/css">
     .demo {
     width:750px;
@@ -64,7 +64,7 @@ $page_id = 3;
     <![endif]-->
 </head>
 <body>
-<?php 
+<?php
 	include('includes/nav.php');
 	?>
 <div class="container-fluid">
@@ -72,7 +72,7 @@ $page_id = 3;
     <div class="parallax_header header-two">
       <h1 class="text-center animated slideInLeft">
       Our Best Pools Yet!
-      </h1>      
+      </h1>
     </div>
   </div>
 </div>
@@ -98,10 +98,10 @@ $page_id = 3;
                 <li data-thumb="img/top-pools/antonios_pools_slideshow_090.jpg">
                     <img src="img/top-pools/antonios_pools_slideshow_090.jpg" />
                 </li>
-                
+
             </ul>
         </div>
-      </div>    
+      </div>
     </section>
     </div>
   </div>
@@ -111,12 +111,12 @@ $page_id = 3;
     <div class="text-center col-md-12">
       <div class="well text-center">
 		  <h3>We Think We Are The Best</h3>
-			<strong>We think we are the best because you the client said so, Great people work here to develop the best solutions for you. Each member of our team has its own function, and without doubt, makes the best possible way!</strong>	
+			<strong>We think we are the best because you the client said so, Great people work here to develop the best solutions for you. Each member of our team has its own function, and without doubt, makes the best possible way!</strong>
    	  </div>
     </div>
   </div>
 </div>
-<?php 
+<?php
 	include('includes/footer.php');
 	?>
 <script src="js/lightslider.js"></script>

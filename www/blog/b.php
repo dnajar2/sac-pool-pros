@@ -8,7 +8,7 @@ $sql = "SELECT * FROM blog WHERE title LIKE '%$seoTitle%' ";
 $results = mysqli_query($conn, $sql);
 $row = mysqli_fetch_array($results);
 
-$select_title = "SELECT title FROM blog";
+$select_title = "SELECT title FROM blog ORDER BY blog_id DESC";
 $page_title = mysqli_query($conn, $select_title);
 
 $date = date_create($row['posted']);
@@ -45,13 +45,13 @@ $date_posted = date_create($row['posted']);
     <![endif]-->
 </head>
 <body>
-<?php 
+<?php
 	include('../includes/nav.php');
 	?>
 <div class="container-fluid">
   <div class="row">
     <div class="parallax_header header-two">
-      <h1 class="text-center animated slideInLeft">All About Swimming Pools, Spas and more.</h1>      
+      <h1 class="text-center animated slideInLeft">All About Swimming Pools, Spas and more.</h1>
     </div>
   </div>
 </div>
@@ -66,7 +66,7 @@ $date_posted = date_create($row['posted']);
 
 	  <h2><?php echo $title ?></h2>
 		  <small><em></em>By <?php echo $author . " | Posted " . date_format($date_posted,"m/d/Y")  ?></em></small>
-		  
+
 	  <article>
 	  	<div class="center-block">
 	  		<img src="https://sacpoolpros.com/images/gallery/<?php echo $img ?>" alt="<?php echo $img ?>" class="img-responsive">
@@ -80,7 +80,7 @@ $date_posted = date_create($row['posted']);
   	<div class="col-sm-3 archives">
 		  <h3><i class="glyphicon glyphicon-menu-right"></i> Archives</h3>
 		  <ul id="archives">
-		  <?php 
+		  <?php
 			  do { ?>
 			<li>
 		  		<!--<a href="b.php?title=<?php echo $post_title = str_replace(" ", "-",$row['title'] ); ?>">-->
@@ -93,22 +93,22 @@ $date_posted = date_create($row['posted']);
 			  	</a>
 			</li>
 			  <?php } while($row = mysqli_fetch_assoc($page_title)); ?>
-		  </ul>	  	
+		  </ul>
 	  </div>
   </div>
   <hr>
 </div>
-<?php 
+<?php
 	include('../includes/footer.php');
 	?>
 	<script>
 		$(document).ready(function(){
 			$('#archives li').first().hide()
 		})
-		
+
 	$('#get_started').click(function(){
 		$('#contact-us').modal('show');
-	});	
+	});
 	</script>
 </body>
 </html>
