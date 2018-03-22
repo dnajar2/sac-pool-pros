@@ -24,7 +24,7 @@ $page_id = 0;
 <link href="https://sacpoolpros.com" rel="canonical" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Swimming Pool Contractors &amp; Swimming Pool Service Pros</title>
+<title>Swimming Pool Contractors &amp; Pool Service Pros</title>
 <meta property="og:site_name" content="Swimming Pool Contractor &amp; Swimming Pool Service Sac Pool Pros">
 <meta property="og:title" content="Swimming Pool Contractors &amp; Swimming Pool Service Pros">
 <meta property="og:url" content="https://www.sacpoolpros.com">
@@ -32,12 +32,12 @@ $page_id = 0;
 <meta property="og:description" content="We are swimming pool experts at Sac Pool Pros, for your swimming pool service needs or pool construction give us a call (916) 722-7665, for any pool build call us today">
 <meta itemprop="name" content="Swimming Pool Construction &amp; Service Sac Pool Pros" >
 <meta itemprop="url" content="https://www.sacpoolpros.com">
-<meta itemprop="description" content="Sac Pool Pros for your swimming pool service needs or pool construction give us a call (916) 722-7665">
+<meta itemprop="description" content="Sac Pool Pros, for your swimming pool service needs or pool construction give us a call (916) 722-7665">
 <meta name="twitter:title" content="Swimming Pool Contractors &amp; Swimming Pool Service Pros">
 <meta name="twitter:url" content="https://www.sacpoolpros.com">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:description" content="we are pool builders and pool service experts, for your swimming pool service needs or pool construction give us a call <?php echo $phone ?>">
-<meta name="description" content="we are pool builders and swimming pool service experts, for your swimming pool service needs or pool construction give us a call <?php echo $phone ?>">
+<meta name="twitter:description" content="we are pool builders and pool service experts, for your swimming pool service needs or pool construction give us a call (916) 722-7665">
+<meta name="description" content="we are pool builders and swimming pool service experts, for your swimming pool service needs or pool construction give us a call (916) 722-7665">
 <?php print $key_words ?>
 
 <!-- Bootstrap -->

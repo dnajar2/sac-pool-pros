@@ -69,7 +69,7 @@ $date_posted = date_create($row['posted']);
 
 	  <article>
 	  	<div class="center-block">
-	  		<img src="https://sacpoolpros.com/images/gallery/<?php echo $img ?>" alt="<?php echo $img ?>" class="img-responsive">
+	  		<img src="https://sacpoolpros.com/images/gallery/<?php echo $img ?>" alt="<?php echo trim($title);?>" class="img-responsive">
 		  	</img>
 		</div>
 	  	<?php

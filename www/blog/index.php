@@ -72,23 +72,23 @@ $page_id = 7;
 	  <div id="blog" class="col-sm-9">
  		  <?php do { ?>
   		  	<div class="col-sm-3">
-	  	<img src="https://sacpoolpros.com/images/gallery/<?php echo $row['img'] ?>" alt="Why build a swimming pool in your Sacramento back yard" class="img-responsive">
-	  </div>
-	  		  <h3><a href="/title/<?php echo $post_title = str_replace(" ", "-",$row['title'] ); ?>.html" title="<?php echo $row['title']; ?>"><?php echo $row['title'] ?></a></h3>
-	  		<article class="col-sm-9">
-			<?php
-			echo  substr($row['content'], 0, 256);
-		?>...
-		<div class="trades text-right">
-			<em><?php echo $row['author'] ?></em>
-			<small><em> posted <?php echo $date = $row['posted']  ?></em></small>
+	  				<img src="https://sacpoolpros.com/images/gallery/<?php echo $row['img'] ?>" alt="<?php echo $row['title']; ?>" class="img-responsive">
+	  			</div>
 
-		</div>
-
-		<hr>
-	  </article>
-
-	  <?php } while($row = mysqli_fetch_assoc($results)); ?>
+	  			<article class="col-sm-9">
+						<h3>
+							<a href="/title/<?php echo $post_title = str_replace(" ", "-",$row['title'] ); ?>.html" title="<?php echo $row['title']; ?>"><?php echo $row['title'] ?></a>
+						</h3>
+						<?php
+							echo  substr($row['content'], 0, 256);
+							?>...
+							<div class="trades text-right">
+								<em><?php echo $row['author'] ?></em>
+								<small><em> posted <?php echo $date = $row['posted']  ?></em></small>
+							</div>
+							<hr>
+	  			</article>
+	  	<?php } while($row = mysqli_fetch_assoc($results)); ?>
 	  </div>
 	  <div class="col-sm-3 archives">
 		  <h3><i class="glyphicon glyphicon-menu-right"></i> Archives</h3>

@@ -4,6 +4,7 @@ $page_id = 2;
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link href="https://sacpoolpros.com/about" rel="canonical" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,7 +36,7 @@ $page_id = 2;
     <![endif]-->
 </head>
 <body>
-<?php 
+<?php
 	include('includes/nav.php');
 	?>
 <div class="container-fluid">
@@ -43,7 +44,7 @@ $page_id = 2;
     <div class="parallax_header header-two">
       <h1 class="text-center animated slideInLeft">
       Get to know the Sac Pool Pros Family
-      </h1>      
+      </h1>
     </div>
   </div>
 </div>
@@ -79,7 +80,7 @@ $page_id = 2;
         		Chris
         	</div>
         </div>
-      </div>    
+      </div>
     </section>
     </div>
   </div>
@@ -89,12 +90,12 @@ $page_id = 2;
     <div class="text-center col-md-12">
       <div class="well text-center">
 		  <h3>We Think We Are The Best</h3>
-			<strong>We think we are the best because you the client said so, Great people work here to develop the best solutions for you. Each member of our team has its own function, and without doubt, makes the best possible way!</strong>	
+			<strong>We think we are the best because you the client said so, Great people work here to develop the best solutions for you. Each member of our team has its own function, and without doubt, makes the best possible way!</strong>
    	  </div>
     </div>
   </div>
 </div>
-<?php 
+<?php
 	include('includes/footer.php');
 	?>
 </body>
