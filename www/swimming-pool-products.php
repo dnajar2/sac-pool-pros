@@ -5,6 +5,8 @@ $page_id = 3;
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<link href="https://sacpoolpros.com/swimming-pool-products" rel="canonical" />
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Sac Pool Construction uses only the best and most advanced products in building custom swimming pools Some products are standard, while others, such as iaqualink, represent the latest innovations in swimming pool construction.">
@@ -24,7 +26,7 @@ $page_id = 3;
     <![endif]-->
 </head>
 <body>
-<?php 
+<?php
 	include('includes/nav.php');
 	?>
 <div class="container-fluid">
@@ -32,7 +34,7 @@ $page_id = 3;
     <div class="parallax_header header-two">
       <h1 class="text-center animated slideInLeft">
       	Swimming Pool Products
-      </h1>      
+      </h1>
     </div>
   </div>
 </div>
@@ -55,9 +57,9 @@ $page_id = 3;
 						<h3>FINISHINGS:&nbsp; RIVER ROCK</h3>
 						<div class="col-lg-6 col-md-6">
 						<img src="http://sacpool.com/images/pebble-tech.jpg" class="img-responsive" alt=""> </div>
-						<div class="col-lg-6 col-md-6">For those seeking a one-of-a-kind pool surface design, River Rok & StoneScapes brightens your pool with a noticeable glow. With these formulas, the sunshine and moonbeams reflect beautifully against your pool bottom. 
+						<div class="col-lg-6 col-md-6">For those seeking a one-of-a-kind pool surface design, River Rok & StoneScapes brightens your pool with a noticeable glow. With these formulas, the sunshine and moonbeams reflect beautifully against your pool bottom.
 						<br><br>Offered in four styles and 14 total options, River Rok & StoneScapes is a patented formula of blended glass formed with a pebble finish to enhance a pool with supreme color reflection. In Sacramento, it is exclusively available at <a href"/" alt="sac pool construction">Sac Pool Pros, Spas & Patio.</a>
-						    
+
 						</div>
 					</div>
 				  </div>
@@ -73,7 +75,7 @@ $page_id = 3;
 						The pool control panel is physically located somewhere, but you no longer have to manually change it to control things like temperature, jets, lights, water features and more.&nbsp;IAQUALINK&nbsp;allows you to control your pool and/or spa wirelessly with your Apple or Android device, or computer.<br><br>
 						The system includes many advanced features. The Eco Select setting allows you to conserve energy and water, making your pool more energy efficiency,&nbsp;while the History page tracks your past settings and usages so you can easily see if things have gotten off-course.<br><br>
 						IAQUALINK provides the ultimate in convenience and data to keep your pool operating safely and efficiently.
-						</div>	
+						</div>
 						<div class="clearfix"></div>
 						<div>
 						<hr>
@@ -93,8 +95,8 @@ $page_id = 3;
 					</div>
 				  </div>
 				</div>
-			</div>    
-			</section>    
+			</div>
+			</section>
 	</div>
   </div>
 
@@ -103,12 +105,12 @@ $page_id = 3;
     <div class="text-center col-md-12">
       <div class="well text-center">
 		  <h3>We Think We Are The Best</h3>
-			<strong>We think we are the best because you the client said so, Great people work here to develop the best solutions for you. Each member of our team has its own function, and without doubt, makes the best possible way!</strong>	
+			<strong>We think we are the best because you the client said so, Great people work here to develop the best solutions for you. Each member of our team has its own function, and without doubt, makes the best possible way!</strong>
    	  </div>
     </div>
   </div>
 </div>
-<?php 
+<?php
 	include('includes/footer.php');
 	?>
 </body>
