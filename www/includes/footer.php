@@ -4,6 +4,8 @@
    <h2 class="text-center">
    	Your dream backyard awaits.
    </h2>
+   <h3 class="text-center">If you need pool construction or pool service we are just one click away</h3>
+   <p class="text-center">Are you an owner builder? we have a solution for you as well click the button below.</p>
    <div class="text-center">
    		<button type="button" class="btn btn-success" data-toggle="modal" data-target="#contact-us">Request a Call &nbsp; <i class="glyphicon glyphicon-earphone"></i></button>
    </div>
@@ -198,7 +200,7 @@ $(document).ready(function() {
 	}
 	return false;
 	});
-	
+
 // 	test number is valid
     $('input[name="phone2"]').on('change', function(){
         console.log(    $(this).val()   );
@@ -220,17 +222,17 @@ $(document).ready(function() {
                     if(json.valid){
                         status.message = "Number is Valid";
                         status.cssClass = "success";
-                        
+
                         if($('#submit-2').hasClass('disabled')){
                             $('#submit-2').removeClass('disabled').removeAttr('disabled');
                         }
-                            
+
                     }else{
                         status.message = "Number is Invalid";
                         status.cssClass = "error"
                         $('#submit-2').addClass('disabled').attr('disabled', true);
                     }
-                    
+
                     $('input[name="phone2"]').after('<div class="phone-stat '+ status.cssClass+'">'+status.message+'</div>')
                 }
             });
@@ -238,7 +240,7 @@ $(document).ready(function() {
     }).on('focus', function(){
         $(this).val("");
         $(this).next('.phone-stat').text('');
-        
+
     })
 });
 </script>
