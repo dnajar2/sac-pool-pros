@@ -24,7 +24,7 @@ $page_id = 0;
 <link href="https://sacpoolpros.com" rel="canonical" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Swimming Pool Contractors &amp; Pool Service Pros</title>
+<title>Swimming Pool Contractors &amp; Pool Service Sac Pool Pros</title>
 <meta property="og:site_name" content="Swimming Pool Contractor &amp; Swimming Pool Service Sac Pool Pros">
 <meta property="og:title" content="Swimming Pool Contractors &amp; Swimming Pool Service Pros">
 <meta property="og:url" content="https://www.sacpoolpros.com">
@@ -66,9 +66,9 @@ $page_id = 0;
 
 </script>
 <div class="hide">
-    <p>swimming pool service sacramento and Sacramento pool builders</p>
-<h1>We are <a href="https://sacpoolpros.com/swimming-pool-construction" title="Swimming Pool Builder Sacramento">swimming pool construction</a> experts, we build quality swimming pools and pride in the overal pool builder process we execute when cunstructing your swimming pool, ensuring the pool build process is the best of the industry</h1>
-Sac Pools pros, swimming pool &amp; Spa construction &amp; service, we offer swimming <a href="swimming-pool-weekly-service" title="pool service sacramento ca"></a>pool service in the Sacramento</a> area as well as swimming pool construction service, our clients are based out of Sacramento and El Dorado counties, we are swimming pool builder experts for the best swimming pool contractor contact us today .
+    <p>swimming pool service and pool builders</p>
+<h1>We are <a href="https://sacpoolpros.com/swimming-pool-construction" title="Swimming Pool Builder in Sacramento">swimming pool construction</a> experts, we build quality swimming pools and pride in the overal pool builder process we execute when cunstructing your swimming pool, ensuring the pool build process is the best of the industry</h1>
+Sac Pools pros, swimming pool , Spa construction &amp; service, we offer swimming <a href="swimming-pool-weekly-service" title="pool service sacramento ca"></a>pool service in the Sacramento</a> area as well as swimming pool construction service, our clients are based out of Sacramento and El Dorado counties, we are swimming pool builder experts for the best swimming pool contractor contact us today .
 </div>
 <?php
 	include('includes/nav.php');
@@ -91,6 +91,8 @@ Sac Pools pros, swimming pool &amp; Spa construction &amp; service, we offer swi
 		 <div class="col-xs-12">
 		     <h2>For all your swimming pool needs be it <a href="/swimming-pool-weekly-service" title="Pool Service">service</a>, <a href="/swimming-pool-repair" title="swimming pool repair">repair</a> or <a href="/swimming-pool-construction" title="swimming pool construction">construction</a> we are here for you!</h2>
 		     <p class="lead">If you are located in <span id="city">Sacramento</span> and are in need of a great swimming pool service crew, you have come to the right place, we have more than 30 years of combined experience in the pool service field, feel free to call us today for a free estimate (916) 722-7665</p>
+         <p>Our clients come from Sacramento, EL Dorado, Folsom, Citrus Heights, Roseville, Davis and more surounding areas, if you are not happy or need a second opinion on your pool serice give us a call today at (916) 722-7665</p>
+         <p>At Sac Pool Pros is not only a pool service company, we also build, repair, remodel your swimming pool. We have the best crew in town to take care of your swimming pool needs.</p>
 		 </div>
 		 <hr>
 		 <div class="services wow slideInLeft">
