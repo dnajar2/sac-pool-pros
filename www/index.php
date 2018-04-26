@@ -91,7 +91,7 @@ Sac Pools pros, swimming pool , Spa construction &amp; service, we offer swimmin
 		 <div class="col-xs-12">
 		     <h2>For all your swimming pool needs be it <a href="/swimming-pool-weekly-service" title="Pool Service">service</a>, <a href="/swimming-pool-repair" title="swimming pool repair">repair</a> or <a href="/swimming-pool-construction" title="swimming pool construction">construction</a> we are here for you!</h2>
 		     <p class="lead">If you are located in <span id="city">Sacramento</span> and are in need of a great swimming pool service crew, you have come to the right place, we have more than 30 years of combined experience in the pool service field, feel free to call us today for a free estimate (916) 722-7665</p>
-         <p>Our clients come from Sacramento, EL Dorado, Folsom, Citrus Heights, Roseville, Davis and more surounding areas, if you are not happy or need a second opinion on your pool serice give us a call today at (916) 722-7665</p>
+         <p>Our clients come from Sacramento, El Dorado, Folsom, Citrus Heights, Roseville, Davis and more surrounding areas, if you are not happy or need a second opinion on your pool service give us a call today at (916) 722-7665</p>
          <p>At Sac Pool Pros is not only a pool service company, we also build, repair, remodel your swimming pool. We have the best crew in town to take care of your swimming pool needs.</p>
 		 </div>
 		 <hr>
