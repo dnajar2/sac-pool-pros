@@ -181,9 +181,9 @@ $(document).ready(function(){
 	$('.owl-next').addClass('pull-right');
 // 	get location from guest
 $.ajax({
-		url:'https://freegeoip.net/json',
+		url:'https://ipapi.co/<?php echo $_SERVER['REMOTE_ADDR']; ?>/json/',
 		method:'GET',
-		dataType: 'jsonp',
+		dataType: 'json',
 		success:function(res){
  			$('#city').text(res.city)
 		}
