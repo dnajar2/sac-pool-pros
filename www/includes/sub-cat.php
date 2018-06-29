@@ -8,6 +8,7 @@ $pool = <<<EOD
 		<li><a href="../gunite" title="Swimming Pool Gunite" >POOL GUNITE</a></li>
 
 		<li ><a href="../pool-gallery" title="POOL GALLERY">POOL GALLERY</a></li>
+		<li ><a href="../pool-slide-show" title="CUSTOM POOL GALLERY">CUSTOM POOLS</a></li>
 		<li ><a href="../swimming-pool-products" title="POOL PRODUCTS">POOL PRODUCTS</a></li>
 		<li ><a href="../swimming-pool-financing" title="POOL FINANCING" >FINANCING</a></li>
 		<li ><a href="#" title="SPECIAL OFFERS">SPECIAL OFFERS</a></li>

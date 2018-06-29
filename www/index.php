@@ -100,13 +100,28 @@ Sac Pools pros, swimming pool , Spa construction &amp; service, we offer swimmin
 			<a href="custom-swimming-pools" title="Custom Pool Builds"><img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/spas-hot-tubs-sacramento.png" alt="spas, hot tubs sacramento"></a>
 			<a href="swimming-pool-products" title="Pool Products"><img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/patio-furniture-sacramento.png" alt="Patios Sacramento"></a>
 			<a href="swimming-pool-weekly-service" title="Pool Service"><img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/pool-service-sacramento.png" alt="pool services sacramento"></a>
-			<div class="clearfix"></div>
+      <div class="clearfix"></div>
 		 </div>
+     <br>
+       <hr />
+       <h2><a href="/pool-slide-show" title="Custom Pools">See our custom pools slide show</a></h2>
+       <div class="text-center">
+         <div class=row>
+           <div class="col-sm-6">
+             <a href="/pool-slide-show" title="Custom Pools"><img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_01.jpg" class="img-responsive img-thumbnail"></a>
+           </div>
+           <div class="col-sm-6">
+             <a href="/pool-slide-show" title="Custom Pools"><img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_02.JPG" class="img-responsive img-thumbnail"></a>
+           </div>
+       </div>
+       <hr>
+       <div class="clearfix"></div>
 		 <div class="trades wow fadeIn">
+
 		 	<img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/swimming-pool-construction-crew.jpg" alt="Sacramento pool builder crew">
 		 	<img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/download.jpg" alt="Sacramentos best swimming pool service">
 		 	<img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/trade-certified-pool-dealer.jpg" alt="Sacramento pool dealer">
-		 	<img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/Inc-5000-2015-sac-pools-pros-sacramento.png" alt="sac pool pors, swimming pool construction experts"
+		 	<img src="https://sacpool-sacpoolpros.netdna-ssl.com/images/assets/Inc-5000-2015-sac-pools-pros-sacramento.png" alt="sac pool pors, swimming pool construction experts">
 		</div>
 	 </div>
 	</div>

@@ -8,7 +8,7 @@ if (mysqli_connect_errno())
   }else{
 		//Fetching Values from URL
 	  	$name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
-		$lastname = filter_var($_POST['lastname'], FILTER_SANITIZE_STRING);	  										
+		$lastname = filter_var($_POST['lastname'], FILTER_SANITIZE_STRING);
 		$email = $_POST['email'];
 		$phone = $_POST['phone'];
 		$zcode = $_POST['zcode'];
@@ -16,13 +16,13 @@ if (mysqli_connect_errno())
 		//Insert query
 		$query = mysqli_query($connection, "insert into form_element(name, lastname, email, phone, zcode, message) values ('$name', '$lastname', '$email', '$phone','$zcode','$message')");
 	  	if($query){
-	  		echo "Thank you ". $name ." Your form was submitted succesfully";			
+	  		echo "Thank you ". $name ." Your form was submitted succesfully";
 		}else{
-			echo("Error description: " . mysqli_error($connection)); 	
+			echo("Error description: " . mysqli_error($connection));
 		}
-	  
+
 	  //email
-	  	$to = "info@sacpoolpros.com";
+	  	$to = "info@sacpool.com";
 	  	$subject = "New email from: ".$name;
 	  	$txt = "Name: ".$name;
 	  	$txt .= "<br>Last Name: ".$lastname;
@@ -36,9 +36,9 @@ if (mysqli_connect_errno())
 
 mail($to,$subject,$txt,$headers);
 	  //end of email
-	  
+
 	  //email 2
-	  
+
 	  $to_2 = $email;
 	  $subject_2 = "We have received your request";
 	  $message = "<html>
@@ -67,7 +67,7 @@ mail($to,$subject,$txt,$headers);
 	}
 	.table{
 		background-color: #00548C;
-		
+
 		padding: 15px;
 	}
 	.footer{
@@ -83,7 +83,7 @@ mail($to,$subject,$txt,$headers);
 		width: 19.5%;
 		float: left;
 		margin-right: .5%;
-		
+
 	}
 	.title{
 		background-color: #A2A2A2;
@@ -115,7 +115,7 @@ mail($to,$subject,$txt,$headers);
 </head>
 <body>
 <div class='header' >
-	<img src='https://sacpoolpros.com/beta/images/logo-stone.png' >	
+	<img src='https://sacpoolpros.com/beta/images/logo-stone.png' >
 </div>
 
 <h2>Thank you, we have recevied the below details!</h2>
@@ -150,7 +150,7 @@ You are receiving this email because you submitted your information to <a href='
 	Sacramento, CA 95829<br>
 	(530) 312-2614
 </div>
-	
+
 </div>
 </body>
 </html>";
@@ -158,7 +158,7 @@ You are receiving this email because you submitted your information to <a href='
 	  $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 	  $headers .= 'From: <webmaster@sacpoolpros.com>' . "\r\n";
 	  mail($to_2,$subject_2,$message,$headers);
-	  //end of email 2 
+	  //end of email 2
 	  }
 mysqli_close($connection); // Connection Closed
 ?>

@@ -9,20 +9,20 @@ if (mysqli_connect_errno())
   	if( !empty($_POST['remote']) ){
 		//Fetching Values from URL
 	  	$name = filter_var($_POST['name2'], FILTER_SANITIZE_STRING);
-		$lastname = filter_var($_POST['lastname2'], FILTER_SANITIZE_STRING); 
-		$email = 'leads@sacpoolpors.com';
+		$lastname = filter_var($_POST['lastname2'], FILTER_SANITIZE_STRING);
+		$email = 'leads@sacpool.com';
 		$phone = $_POST['phone2'];
 		$message = filter_var($_POST['note2'], FILTER_SANITIZE_STRING);
 		//Insert query
 		$query = mysqli_query($connection, "insert into form_element(name, lastname, email, phone, zcode, message) values ('$name', '$lastname', '$email', '$phone','null','$message')");
 	  	if($query){
-	  		echo "Thank you ". $name ." Your form was submitted succesfully";			
+	  		echo "Thank you ". $name ." Your form was submitted succesfully";
 		}else{
-			echo("Error description: " . mysqli_error($connection)); 	
+			echo("Error description: " . mysqli_error($connection));
 		}
-	  
+
 	  //email
-	  	$to = "info@sacpoolpros.com";
+	  	$to = "info@sacpool.com";
 	  	$subject = "New email from: ".$name;
 	  	$txt = "Name: ".$name;
 	  	$txt .= "<br>Last Name: ".$lastname;
@@ -31,7 +31,7 @@ if (mysqli_connect_errno())
 	  	$headers = "MIME-Version: 1.0" . "\r\n";
 	  	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 	  	$headers .= "From: ".$email;
-	  
+
 	  mail($to,$subject,$txt,$headers);
 	  }
   }

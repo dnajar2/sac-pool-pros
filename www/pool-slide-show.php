@@ -73,6 +73,9 @@ $page_id = 3;
       <h1 class="text-center animated slideInLeft">
       Our Best Pools Yet!
       </h1>
+      <div class="text-center">
+   		<button type="button" class="btn btn-success" data-toggle="modal" data-target="#contact-us">Request a Call &nbsp; <i class="glyphicon glyphicon-earphone"></i></button>
+   </div>
     </div>
   </div>
 </div>
@@ -83,20 +86,38 @@ $page_id = 3;
    	  <div class="container" style="padding:0">
         <div class="demo">
             <ul id="lightSlider">
-                <li data-thumb="img/top-pools/IMG_0301.jpg">
-                    <img src="img/top-pools/IMG_0301.jpg" />
+                <li data-thumb="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/IMG_0301.jpg">
+                    <img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/IMG_0301.jpg" />
                 </li>
-                <li data-thumb="img/top-pools/IMG_0444.jpg">
-                    <img src="img/top-pools/IMG_0444.jpg" />
+                <li data-thumb="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/IMG_0444.jpg">
+                    <img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/IMG_0444.jpg" />
                 </li>
-                <li data-thumb="img/top-pools/IMG_7605.jpg">
-                    <img src="img/top-pools/IMG_7605.jpg" />
+                <li data-thumb="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/IMG_7605.jpg">
+                    <img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/IMG_7605.jpg" />
                 </li>
-                <li data-thumb="img/top-pools/antonios_pools_slideshow_089.jpg">
-                    <img src="img/top-pools/antonios_pools_slideshow_089.jpg" />
+                <li data-thumb="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/antonios_pools_slideshow_089.jpg">
+                    <img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/antonios_pools_slideshow_089.jpg" />
                 </li>
-                <li data-thumb="img/top-pools/antonios_pools_slideshow_090.jpg">
-                    <img src="img/top-pools/antonios_pools_slideshow_090.jpg" />
+                <li data-thumb="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/antonios_pools_slideshow_090.jpg">
+                    <img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/antonios_pools_slideshow_090.jpg" />
+                </li>
+                <li data-thumb="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_01.jpg">
+                    <img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_01.jpg" />
+                </li>
+                <li data-thumb="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_02.JPG">
+                    <img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_02.JPG" />
+                </li>
+                <li data-thumb="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_03.jpg">
+                    <img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_03.jpg" />
+                </li>
+                <li data-thumb="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_04.JPG">
+                    <img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_04.JPG" />
+                </li>
+                <li data-thumb="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_05.jpg">
+                    <img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_05.jpg" />
+                </li>
+                <li data-thumb="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_06.jpg">
+                    <img src="https://sacpool-sacpoolpros.netdna-ssl.com/img/top-pools/custom_pool_06.jpg" />
                 </li>
 
             </ul>
@@ -127,7 +148,7 @@ $(document).ready(function() {
         item: 1,
         loop: true,
         slideMargin: 0,
-        thumbItem: 9
+        thumbItem: 11
     });
 });
 </script>
